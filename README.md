@@ -1,19 +1,9 @@
 ### Matching an Email Regex
 
-In this tutorial, we'll delve into the intricacies of a regular expression (regex) pattern designed to match email addresses. Email validation is a ubiquitous requirement in web development, and understanding the regex pattern can significantly aid in effectively validating email addresses in your projects. We'll meticulously dissect each part of the regex pattern and elucidate its role in the validation process.
+I created a tutorial and publised it in a Github gist. Through this tutorial we will consistently refer to the provided regular expression (regex) for the purpose of analyzing each regex component. This approach aims to facilitate a comprehensive understanding for both beginners and experts, ensuring clarity in comprehending the material. The regex components covered in this guide comprise Anchors, Quantifiers, Grouping Constructs, Bracket Expressions, Character Classes, and finally Character Escapes. By thoroughly examining these elements, readers will gain a solid grasp of the topic.
+#
+* [Github Gist Link](https://gist.github.com/Moe1362/de5586ad034c9c884ede2fa6a77183d1)
 
-# Summary
-
-The regex pattern we'll be unraveling is:
-
-
-\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b
-
-This regex pattern is meticulously crafted to validate email addresses based on their fundamental structure and format. It ensures that an email address contains characters before and after the "@" symbol, followed by a domain with at least two characters after the dot.
-
-# Gist Link
-
-https://gist.github.com/Moe1362/de5586ad034c9c884ede2fa6a77183d1
 
 # Table of Contents
 
@@ -79,6 +69,7 @@ Back-references allow referencing previously matched groups within the regex, bu
 
 # Look-ahead and Look-behind
 Look-ahead and look-behind assertions assert conditions before or after the current position in the text, but they are not used in our email validation regex pattern.
+
 
 # Author
 
