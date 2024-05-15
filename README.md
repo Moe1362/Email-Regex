@@ -2,7 +2,7 @@
 
 I created a tutorial and publised it in a Github gist. Through this tutorial we will consistently refer to the provided regular expression (regex) for the purpose of analyzing each regex component. This approach aims to facilitate a comprehensive understanding for both beginners and experts, ensuring clarity in comprehending the material. The regex components covered in this guide comprise Anchors, Quantifiers, Grouping Constructs, Bracket Expressions, Character Classes, and finally Character Escapes. By thoroughly examining these elements, readers will gain a solid grasp of the topic.
 #
-* [Github Gist Link](https://gist.github.com/Moe1362/de5586ad034c9c884ede2fa6a77183d1.js)
+* [Github Gist Link](https://github.com/Moe1362/Email-Regex)
 
 
 # Table of Contents
