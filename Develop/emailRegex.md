@@ -1,16 +1,15 @@
-# Matching an Email Regex, Understanding the Components
+# Matching an Email Regex
 
-In this tutorial, we'll explore how a regular expression (regex) pattern designed to match email addresses works. Email validation is a common requirement in web development, and understanding the regex pattern can help you effectively validate email addresses in your projects. We'll break down each part of the regex pattern and explain its role in the validation process.
+
+I invite you to explore this inclusive tutorial guide on email regular expression (regex) matching, employing JavaScript in the domain of Computer Science. By the end of this tutorial, individuals new to the subject as well as scholars will gain a thorough grasp and knowledge of regex elements. This will be accomplished through in-depth explanations and analyses of practical examples. Within this tutorial, our focus will be on email regex, where we will deconstruct the constituents of a regexes pattern formulated to authenticate email addresses. We will elucidate how each component plays a role in guaranteeing precise and dependable email validation.
+
 
 ## Summary
+In this tutorial, we will consistently refer to the provided regular expression (regex) displayed below for the purpose of analyzing each regex component. This approach aims to facilitate a comprehensive understanding for both beginners and experts, ensuring clarity in comprehending the material. The regex components covered in this guide comprise Anchors, Quantifiers, Grouping Constructs, Bracket Expressions, Character Classes, and finally Character Escapes. By thoroughly examining these elements, readers will gain a solid grasp of the topic.
 
-he regex pattern we'll be dissecting is:
-
-\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b
-
-This regex pattern is designed to validate email addresses based on their basic structure and format. It ensures that an email address contains characters before and after the "@" symbol, followed by a domain with at least two characters after the dot.
-
-\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b
+```
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+```
 
 ## Table of Contents
 
@@ -103,14 +102,3 @@ Look-ahead and look-behind assertions assert conditions before or after the curr
 
 * [Linkedin](https://www.linkedin.com/in/mxabbasi/)
 * [Github-Profile](https://github.com/Moe1362)
-
-
-
-
-
-
-
-
-
-
-
