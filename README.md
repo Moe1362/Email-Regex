@@ -70,6 +70,9 @@ Back-references allow referencing previously matched groups within the regex, bu
 # Look-ahead and Look-behind
 Look-ahead and look-behind assertions assert conditions before or after the current position in the text, but they are not used in our email validation regex pattern.
 
+# License
+
+MIT License
 
 # Author
 
